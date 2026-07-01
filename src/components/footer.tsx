@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <div className='max-w-[1500px] w-full mx-auto'>
+    <div className='max-w-screen w-full mx-auto'>
     <div className='w-full bg-black flex flex-col sm:flex-row px-6 py-10 gap-8 sm:gap-10 lg:gap-20 sm:items-center sm:justify-between'>
         <div className='bg-black w-full sm:w-[60%]'>
 

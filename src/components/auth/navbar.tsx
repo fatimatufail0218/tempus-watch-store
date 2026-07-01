@@ -12,7 +12,7 @@ const Navbar = async () => {
   const isLoggedIn = !!session?.user;
 
   return (
-    <nav className='max-w-[1500px] w-full md:px-8 h-16 md:gap-10 flex justify-between items-center py-4 bg-[#FFFFFF] px-4 border border-b-gray-200 fixed top-0 left-0 right-0 mx-auto z-100'>
+    <nav className='max-w-screen w-full md:px-8 h-16 md:gap-10 flex justify-between items-center py-4 bg-[#FFFFFF] px-4 border border-b-gray-200 fixed top-0 left-0 right-0 mx-auto z-100'>
       
       <a href="/" className='flex gap-2.5 items-baseline'>
         <span className='font-Arial text-[22px] font-light uppercase text-[#0D0D0B] tracking-[2px]'>Tempus</span>

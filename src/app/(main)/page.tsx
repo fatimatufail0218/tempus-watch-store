@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     
     <>
-    <section id="hero" className="min-h-screen max-w-[1500px] mx-auto">
+    <section id="hero" className="min-h-screen max-w-screen mx-auto">
       <div className="flex flex-col lg:flex-row">
 
         <div className="w-full lg:w-[48%] px-6 md:px-10 lg:px-8 m-auto pt-[86px] lg:pt-18 lg:pb-0">
